@@ -1,0 +1,12 @@
+
+[tag_ansibleNodeType_node]
+
+[tag_ansibleNodeType_master]
+
+
+
+[node:children]
+tag_ansibleNodeType_node
+
+[master:children]
+tag_ansibleNodeType_master
